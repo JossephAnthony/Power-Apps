@@ -1,0 +1,3 @@
+If(IsBlank(SharePointIntegration.Selected), First([@'Content scheduler']),SharePointIntegration.Selected)
+
+If(ThisItem.Completed, Color.DarkGreen, Color.DarkRed)
