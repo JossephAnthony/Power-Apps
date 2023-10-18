@@ -1,3 +1,12 @@
 If(IsBlank(SharePointIntegration.Selected), First([@'Content scheduler']),SharePointIntegration.Selected)
 
 If(ThisItem.Completed, Color.DarkGreen, Color.DarkRed)
+
+
+//Ahora para embed en webpage
+<iframe
+src="https://apps.powerapps.com/play/e580b2e0-9bdd-415d-ab7d-a76bdb80f68f?ID=[$ID]" width=¨1185¨ height=¨790¨></iframe>
+
+Cambie el APP START SCREEN QUE ESTABA EN HOME
+
+Y EL ITEM DE SPFORMCONTEN que era un simple varRecord
