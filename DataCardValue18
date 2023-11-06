@@ -1,0 +1,14 @@
+ITEMS 
+Choices([@'Solicita tu pago'].'Responsable de regularizar')
+
+Accessible
+Label If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+
+DefaultSelectedItems
+Parent.Default
+
+DisplayMode
+Parent.DisplayMode
+
+ValidationState
+If(IsBlank(Parent.Error), "None", "Error")
