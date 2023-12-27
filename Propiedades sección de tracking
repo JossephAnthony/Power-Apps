@@ -1,0 +1,5 @@
+DataCardSuperior1
+  Visible: !IsBlank(DataCardValue24.Selected.Value)
+
+Estado_DataCard1
+  !IsBlank(DataCardValue24.Selected.Value)
